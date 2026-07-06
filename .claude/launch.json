@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hybrid-pro-dev",
+      "runtimeExecutable": "/Users/kawmai/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeArgs": ["--require", "/Users/kawmai/Desktop/Hybrid pro/scripts/fix-path.js", "node_modules/next/dist/bin/next", "dev"],
+      "port": 3000
+    }
+  ]
+}

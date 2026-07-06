@@ -17,6 +17,14 @@
 /.next/
 /out/
 
+# next-pwa generated service worker artifacts
+/public/sw.js
+/public/swe-worker*.js
+/public/workbox-*.js
+/public/worker-*.js
+/public/fallback-*.js
+/public/*.js.map
+
 # production
 /build
 
@@ -35,6 +43,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# claude code session-local state (launch.json is shared, kept tracked)
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
 
 # typescript
 *.tsbuildinfo
